@@ -1,0 +1,11 @@
+First 30mins: (10h ->10h30m)
+
+yarn add --dev hardhat
+yarn hardhat -> create sample project 
+
+solhint is used to check for solidity errors (like a compiler, used for best practices of code)
+to run it, use -> yarn add solhint, ->yarn solhint contracts/*.sol
+
+scripts/deploy wont exist, we will be using hardhat-deploy package, yarn add --dev hardhat-deploy
+add deploy folder, also add hardhat-deploy-ethers package (yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers)  
+
